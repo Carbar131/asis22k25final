@@ -29,25 +29,31 @@ namespace Capa_Vista_Seguridad
             };
 
             string[] columnas = {
-                    "Tbl_Perfil",
-                    "Pk_Id_Perfil",
-                    "Cmp_Puesto_Perfil",
-                    "Cmp_Descripcion_Perfil",
-                    "Cmp_Estado_Perfil",
-                    "Cmp_Tipo_Perfil"
+                    "tbl_paciente",
+                    "pk_idPaciente",
+                    "nombrePaciente",
+                    "apellidoPaciente",
+                    "fechaNacimientoPaciente",
+                    "sexoPaciente",
+                    "direccionPaciente",
+                    "telefonoPaciente",
+                    "estadoPaciente"
                 };
 
             string[] sEtiquetas = {
-                    "Código Perfil",
-                    "Puesto del Perfil",
-                    "Descripción del Perfil",
-                    "Estado del Perfil",
-                    "Tipo de Perfil"
+                    "Código paciente",
+                    "nombre del paciente",
+                    "apellido del paciente",
+                    "fechadenacimiento",
+                    "sexo",
+                    "dirrecion",
+                    "Telefono",
+                    "estado del paciente"
                 };
 
 
-            int id_aplicacion = 303;
-            int id_Modulo = 4;
+            int id_aplicacion = 405;
+            int id_Modulo = 9;
             navegador1.IPkId_Aplicacion = id_aplicacion;
             navegador1.IPkId_Modulo = id_Modulo;
             navegador1.configurarDataGridView(config);

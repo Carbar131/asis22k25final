@@ -345,5 +345,11 @@ namespace Capa_Vista_Seguridad
             Frm_PruebaNavegador nav = new Frm_PruebaNavegador();
             nav.ShowDialog();
         }
+
+        private void anticiposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frmanticipos frmanticipo = new Frmanticipos();
+            frmanticipo.Show();
+        }
     }
 }

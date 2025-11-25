@@ -19,5 +19,11 @@ namespace Interfac_V3
             //Application.Run(new FormPrincipal());
             Application.Run(new splash());
         }
+
+
+
+
+
+
     }
 }

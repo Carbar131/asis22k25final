@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_Vista_Seguridad;
 
 namespace Interfac_V3
 {
@@ -36,8 +37,8 @@ namespace Interfac_V3
 
         private void btnSeguridad_Click(object sender, EventArgs e)
         {
-            //FormPrincipal forma = new FormPrincipal();
-            //forma.Show();
+            Frm_Login frmlogin = new Frm_Login();
+            frmlogin.Show();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -57,8 +58,8 @@ namespace Interfac_V3
 
         private void btnPropio_Click(object sender, EventArgs e)
         {
-            //FormPrincipal forma = new FormPrincipal();
-            //forma.Show();
+            Frm_Login frmlogin = new Frm_Login();
+            frmlogin.Show();
         }
     }
 }
